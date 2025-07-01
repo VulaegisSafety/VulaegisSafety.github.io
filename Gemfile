@@ -1,2 +1,2 @@
 source "https://rubygems.org"
-gem "github-pages", "~> 222", group: :jekyll_plugins  # Lock to older version
+gem "github-pages", group: :jekyll_plugins  # Let GitHub manage versions

@@ -1,6 +1,8 @@
 title: "Vulaegis Safety Solutions"
 description: "Industrial safety audits, accident forensics, risk simulations & compliance training."
 url: "https://VulaegisSafety.github.io"  
-remote_theme: mmistakes/minimal-mistakes@latest 
+remote_theme: mmistakes/minimal-mistakes@4.24.0  # Use specific version
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap

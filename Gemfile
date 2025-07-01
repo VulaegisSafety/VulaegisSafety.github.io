@@ -1,2 +1,3 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins  # Let GitHub manage versions
+gem "jekyll", "~> 3.9.0"
+gem "github-pages", group: :jekyll_plugins

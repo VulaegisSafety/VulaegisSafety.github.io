@@ -1,9 +1,13 @@
 header:
   - title: "Home"
     url: /
+    icon: "🏠"
   - title: "Services"
     url: /services
+    icon: "🛡️"
   - title: "About"
     url: /about
+    icon: "ℹ️"
   - title: "Contact"
     url: /contact
+    icon: "✉️"

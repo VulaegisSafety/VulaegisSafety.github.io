@@ -5,7 +5,7 @@ title: "Industrial Safety Experts in Kenya"
 
 <div class="container-lg px-3 py-6">
   <header class="text-center mb-6">
-    <h1>Vulaeqis Safety Solutions</h1>
+    <h1>Vulaegis Safety Solutions</h1>
     <p class="lead">Certified safety audits and training across Kenya</p>
   </header>
 

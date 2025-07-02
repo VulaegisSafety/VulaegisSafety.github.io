@@ -1,7 +1,16 @@
-title: "Vulaegis Safety"
-description: "Industrial safety solutions"
-url: "https://VulaegisSafety.github.io"  # ← Match your repo name!
-theme: jekyll-theme-primer  # GitHub's default theme
+title: "Vulaegis Safety Solutions"
+description: "Industrial safety audits, training, and compliance services"
+url: "https://vulaegissafety.github.io"  # Must match your repo name
+theme: jekyll-theme-primer  # GitHub's native theme
+
+# Company info
+company:
+  name: "Vulaegis Safety Solutions"
+  location: "Nairobi, Kenya"
+  email: "vulaegis.safety@gmail.com"
+  phone: "+254 700 123456"
+
+# Essentials
 plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata

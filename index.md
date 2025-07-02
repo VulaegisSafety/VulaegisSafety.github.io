@@ -1,6 +1,10 @@
 ---
-layout: default
-title: Home
+layout: home
+title: "Vulaegis Safety Solutions"
+tagline: "Decoding risk, delivering safety"
 ---
-# Welcome to Vulaegis  
-Temporary homepage.  
+### **Industrial Safety Specialists**  
+- 🛡️ Audits & Compliance  
+- 🔍 Accident Forensics  
+- 🖥️ Risk Simulations  
+- 🎓 Training Programs  

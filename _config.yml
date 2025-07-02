@@ -3,6 +3,15 @@ description: "Certified safety audits and training across Kenya"
 url: "https://vulaegissafety.github.io"  # Ensure this matches your repo
 theme: jekyll-theme-primer
 
+# Add this to your existing config
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      nav_order: 1  # Controls menu order
+
 # Navigation
 header_links:
   - title: "Home"

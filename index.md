@@ -1,13 +1,18 @@
 ---
 layout: default
-title: "Industrial Safety Experts in Kenya"
+title: "Home"
 ---
 
-<div class="container-lg px-3 py-6">
-  <header class="text-center mb-6">
-    <h1>Vulaegis Safety Solutions</h1>  <!-- Corrected name -->
-    <p class="lead f2-light text-gray">Decoding risk, delivering safety</p>  <!-- Added tagline -->
-  </header>
+<header class="text-center py-4">
+  <img 
+    src="/assets/images/logo.png" 
+    alt="Vulaegis Safety Solutions Logo"
+    width="200"
+    class="mb-3"
+  >
+  <h1>Vulaegis Safety Solutions</h1>
+  <p class="lead">Decoding risk, delivering safety</p>
+</header>
 
   <section id="services" class="border rounded-2 p-4 bg-gray-light">
     <h2 class="text-center mb-4">Our Services</h2>

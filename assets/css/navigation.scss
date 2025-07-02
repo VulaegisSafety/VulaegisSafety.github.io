@@ -1,0 +1,52 @@
+/* Desktop Navigation */
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2b2b2b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+      
+      &:hover {
+        color: #4CAF50;
+      }
+    }
+  }
+  
+  .mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .desktop-nav .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block !important;
+  }
+}
+
+/* Slide-in menu (same as previous) */
+.slide-nav {
+  /* Keep your existing slide-nav styles */
+}

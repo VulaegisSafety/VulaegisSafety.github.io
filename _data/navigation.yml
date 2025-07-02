@@ -2,8 +2,8 @@ header:
   - title: "Home"
     url: /
   - title: "Services"
-    url: /#services
+    url: /services
   - title: "About"
-    url: /about/
+    url: /about
   - title: "Contact"
-    url: /contact/
+    url: /contact

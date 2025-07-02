@@ -1,6 +1,6 @@
-title: "Vulaeqis Safety Solutions"
+title: "Vulaegis Safety Solutions"  # Corrected name
 description: "Certified safety audits and training across Kenya"
-url: "https://vulaeqissafety.github.io"  # Match your repo name
+url: "https://vulaegissafety.github.io"  # Ensure this matches your repo
 theme: jekyll-theme-primer
 
 # Navigation
@@ -16,6 +16,6 @@ header_links:
 
 # Company Info
 company:
-  email: "vulaeqis.safety@gmail.com"
+  email: "vulaegis.safety@gmail.com"  # Corrected email
   phone: "+254 700 123456"
   location: "Nairobi, Kenya"

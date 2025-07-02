@@ -1,0 +1,7 @@
+title: "Vulaegis Safety"
+description: "Industrial safety solutions"
+url: "https://VulaegisSafety.github.io"  # ← Match your repo name!
+theme: jekyll-theme-primer  # GitHub's default theme
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata

@@ -1,38 +1,78 @@
-.services-container {
+.services-page {
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-.service-cards {
+.intro-text {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .lead {
+    font-size: 1.25rem;
+    color: #555;
+  }
+}
+
+.service-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
 }
 
-.service-icon {
-  height: 60px;
-  float: left;
-  margin-right: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  border-radius: 4px;
-  text-decoration: none;
+.service-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s;
   
-  &-green {
-    background: #4CAF50;
-    color: white;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .service-icon {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  ul {
+    padding-left: 1.25rem;
+    margin: 1rem 0;
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
-.cta-box {
-  background: #f5f5f5;
-  padding: 2rem;
+.service-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #4CAF50;
+  color: white !important;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.service-cta {
   text-align: center;
+  background: #f5f7fa;
+  padding: 2.5rem;
   border-radius: 8px;
+  margin-top: 3rem;
+  
+  .primary-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #2b2b2b;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
 }

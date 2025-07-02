@@ -11,3 +11,7 @@ header:
   - title: "Contact"
     url: /contact
     icon: "✉️"
+    header:
+  - title: "Services"
+    url: /services/
+    nav_order: 2

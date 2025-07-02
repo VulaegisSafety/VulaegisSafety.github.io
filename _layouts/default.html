@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Existing head content -->
-    <link rel="stylesheet" href="/assets/css/slide-nav.css">
-  </head>
-  <body>
-    {% include slide-nav.html %}
-    
+<head>
+  <!-- ... existing head ... -->
+  <link rel="stylesheet" href="/assets/css/navigation.css">
+</head>
+<body>
+  {% include navigation.html %}
+  
+  <main class="page-content">
     {{ content }}
+  </main>
 
-    <script src="/assets/js/nav.js"></script>
-  </body>
+  <script src="/assets/js/navigation.js"></script>
+</body>
 </html>

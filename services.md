@@ -1,50 +1,61 @@
 ---
 layout: page
-title: "Our Safety Services"
+title: "Our Safety Solutions"
 permalink: /services/
-nav_order: 2  # Controls menu order
+nav_order: 2
 ---
 
-<div class="services-container">
+<div class="services-page">
 
-## 🛡️ Core Services
+<section class="intro-text">
+  <h1 class="text-center">Comprehensive Safety Services</h1>
+  <p class="lead">Tailored industrial safety solutions meeting Kenyan and international standards</p>
+</section>
 
-<div class="service-cards">
+<div class="service-grid">
 
-### 1. OSHA Compliance Audits
-![Audit Icon](/assets/images/audit-icon.png){: .service-icon}
-- Full regulatory gap analysis
-- Corrective action plans
-- Documentation preparation
-[Learn More](#){: .btn .btn-green}
+### 🛡️ Compliance Audits
+<div class="service-card">
+![Audit](https://via.placeholder.com/100x100/4CAF50/FFFFFF?text=AUDIT){: .service-icon}
+- OSHA/NEBOSH compliance reviews  
+- Hazard identification  
+- Corrective action plans  
+<a href="#contact" class="service-btn">Request Audit</a>
+</div>
 
-### 2. Fire Risk Assessments
-![Fire Icon](/assets/images/fire-icon.png){: .service-icon}
-- Facility vulnerability scans
-- Evacuation planning
-- Fire drill simulations
-[Get Assessment](#){: .btn .btn-green}
+### 🔥 Fire Safety
+<div class="service-card">
+![Fire](https://via.placeholder.com/100x100/F44336/FFFFFF?text=FIRE){: .service-icon}
+- Facility risk assessments  
+- Evacuation planning  
+- Fire drill simulations  
+<a href="#contact" class="service-btn">Assess Risks</a>
+</div>
 
-### 3. Workplace Training
-![Training Icon](/assets/images/training-icon.png){: .service-icon}
-- On-site safety workshops
-- VR hazard simulations
-- Certification programs
-[View Courses](#){: .btn .btn-green}
+### 👷 Training Programs
+<div class="service-card">
+![Training](https://via.placeholder.com/100x100/2196F3/FFFFFF?text=TRAIN){: .service-icon}
+- On-site workshops  
+- VR safety simulations  
+- Certification courses  
+<a href="#contact" class="service-btn">View Courses</a>
+</div>
 
-### 4. Legal Compliance
-![Legal Icon](/assets/images/legal-icon.png){: .service-icon}
-- Policy development
-- Audit representation
-- Regulatory updates
-[Consult Now](#){: .btn .btn-green}
+### 📝 Legal Support
+<div class="service-card">
+![Legal](https://via.placeholder.com/100x100/9C27B0/FFFFFF?text=LEGAL){: .service-icon}
+- Policy development  
+- Audit representation  
+- Regulation updates  
+<a href="#contact" class="service-btn">Get Support</a>
+</div>
 
 </div>
 
-<div class="cta-box">
-**Custom Solutions Available**  
-All programs tailored for Kenyan industries  
-📞 +254 700 123456 | 📧 safety@vulaegis.com
-</div>
+<section class="service-cta">
+  <h2>Customized for Kenyan Industries</h2>
+  <p>All programs adapted for local regulations and workplace environments</p>
+  <a href="/contact" class="primary-btn">Get a Free Consultation</a>
+</section>
 
 </div>

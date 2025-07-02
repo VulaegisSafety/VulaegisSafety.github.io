@@ -1,0 +1,10 @@
+<div id="slideNav" class="slide-nav">
+  <button class="close-btn" onclick="closeNav()">×</button>
+  <div class="nav-links">
+    {% for item in site.data.navigation.header %}
+      <a href="{{ item.url }}" onclick="closeNav()">{{ item.title }}</a>
+    {% endfor %}
+  </div>
+</div>
+
+<button class="menu-btn" onclick="openNav()">☰ Menu</button>

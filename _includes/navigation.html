@@ -1,0 +1,15 @@
+<nav class="desktop-nav">
+  <a href="/" class="logo-link">
+    <img src="/assets/images/logo.png" alt="Vulaegis Logo" width="40">
+  </a>
+  
+  <div class="nav-links">
+    {% for item in site.data.navigation.header %}
+      <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
+    {% endfor %}
+  </div>
+  
+  <button class="mobile-menu-btn" onclick="openNav()">☰</button>
+</nav>
+
+{% include slide-nav.html %}  <!-- Slide-in mobile menu -->
